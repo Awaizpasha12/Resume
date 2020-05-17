@@ -1,0 +1,62 @@
+#header{
+ display: grid;
+ grid-template-columns: 2fr 5fr;
+ background: black;
+ color: white;
+}
+#obj ,#soft-skills, #technical-skills, #interests, #education ,#projects , #info {
+ background: #CDCDCF;
+ padding: 10px;
+}
+#ui{
+ display: grid;
+ grid-template-columns: 0.2fr 0.5fr;
+}
+#space{
+ margin-left: 30px;
+}
+#exp1{
+ margin-right: 20px;
+ display: grid;
+ grid-template-columns: 1fr 2fr 4fr;
+}
+p{
+ text-align: justify;
+}
+ul{
+ text-align: justify;
+}
+#head{
+ font-weight: bold;
+}
+
+#left-mrgm{
+ margin-left: 40px;
+ font-weight: bold;
+}
+.box{
+ height: 20px;
+ width: 20px;
+ background: black;
+}
+#image{
+ height: 150px;
+ width: 150px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ margin-left: 20px;
+}
+#name{
+ letter-spacing: 0.5em;
+ font-weight: bold;
+ margin-top: 20px;
+}
+#web{
+ letter-spacing: 0.2em;
+ margin-top: 30px;
+}
+
+#wrapper{
+ padding: 0px;
+ margin-top: 50px;
+}
